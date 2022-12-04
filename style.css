@@ -1,0 +1,191 @@
+*
+{
+    margin: 0px;
+    padding:  0px;
+    box-sizing: border-box;
+}
+nav
+{
+    width:100%;
+    height: 75px;
+    line-height: 80px;
+    padding: 0px 100px;
+    position: fixed;
+    background-color: #A4BE7B;
+    z-index: 2;
+}
+.logo
+{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+ul
+{
+    float: right;
+}
+li
+{
+    display: inline;
+    list-style: none;
+    font-family: 'Comfortaa', 'cursive';
+    font-weight: bolder;
+    font-size: 18px;
+}
+li a
+{
+    font-weight: bolder;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding:0px 20px;
+    text-decoration: none;
+    color: brown;
+}
+li a:hover
+{
+    color: #FFFBC1;
+    transition: all 0.4s ease 0s;
+}
+.first
+{
+    background-color: white;
+    position: relative;
+}
+hr{
+    border-style: dotted none none;
+    width: 5%;
+    border-width: 10px;
+    margin:80px;
+    color:#A4BE7B;
+}
+body
+{
+    background-color: #CEE5D0;
+}
+.teacher
+{
+    width: 200px;
+    height: 200px;
+}
+.student
+{
+    width: 200px;
+    height: 200px;
+}
+table
+{
+    padding: 100px;
+}
+.stud
+{
+    display: inline-block;
+    border-radius: 60%;
+    background-color: white;
+}
+.tech
+{
+    display: inline-block;
+    border-radius: 60%;
+    background-color: white
+}
+.tech:hover
+{
+    background-color: #A4BE7B;
+    
+}
+.stud:hover
+{
+    background-color: #A4BE7B;
+}
+.td
+{
+    padding: 100px;
+}
+.studi
+{
+    font-family: 'Comfortaa', cursive;
+    color: #A4BE7B;
+    font-size: 30px;
+}
+.techi
+{
+    font-family: 'Comfortaa', cursive;
+    color: #A4BE7B;
+    font-size: 30px;
+}
+button 
+{
+    background-color: brown;
+    width: 100%;
+    color: white;
+    padding: 15px;
+    margin: 10px 0px;
+    border: none;
+    cursor: pointer;
+}
+form 
+input[type=text], input[type=password] 
+{
+    width: 50%;
+    margin: 20px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 2px solid brown;
+    box-sizing: border-box;
+}
+form
+{
+    font-family: 'Comfortaa', cursive;
+}
+button:hover
+{
+    opacity: 0.5;
+}
+.cancelbtn
+{
+    width: auto;
+    padding: 10px 18px;
+    margin: 10px 5px;
+}
+.top
+{
+    background-color: white;
+    position: relative;
+    top: 70px;
+    height: 400px;
+}
+h1
+{
+    font-family: 'Comfortaa', cursive;
+    color: #A4BE7B;
+}
+.kfkl
+{
+    width: auto;
+    padding: 10px 18px;
+    margin: 10px 5px; 
+}
+.top_image
+{
+    height: 400px;
+}
+.rough
+{
+    height: 100px;
+}
+.content
+{
+    word-spacing: 8px;
+    line-height: 1.5;
+    font-family: 'Comfortaa', cursive;
+    color: #A4BE7B;
+}
+.img1
+{
+    border-radius: 40%;
+    height: 500px;
+    width: 300px;
+    margin: 60px;
+}
